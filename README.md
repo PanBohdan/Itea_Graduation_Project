@@ -57,3 +57,4 @@ matrix_calculator_menu.py - підмодуль з меню функцій
 5.3)matrix_transposer.py
 5.3.1)print_and_transpose_matrix() принтить транспоновану матрицю за допомогою нищенаведеної функції
 	-matrix_transpose(matrix) matrix(матриця(list)) повертає транспоновану матрицю
+utils.py - файл з утилітами які часто використовуються
