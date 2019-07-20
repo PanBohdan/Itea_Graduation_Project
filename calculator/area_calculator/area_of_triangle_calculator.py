@@ -4,7 +4,10 @@ from utils import *
 
 def calculate_area_of_triangle_by_three_sides(a, b, c):
     p = (a + b + c)/2  # half_perimeter
-    result = math.sqrt(p*(p-a)*(p-b)*(p-c))
+    if a < p and b < p and c < p:
+        result = math.sqrt(p*(p-a)*(p-b)*(p-c))
+    else:
+        result = -1
     if result > 0:
         return result
     else:  # comment this if you want only raw output
